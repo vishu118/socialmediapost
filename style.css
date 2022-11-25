@@ -6,11 +6,17 @@ body {
   .container {
     display: flex;
     gap: 50px;
+    width: 50%;
+    background-color: azure;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
   }
   
   
   #posts {
-    width: 400px;
+    width: 300px;
   }
   
   #posts div {
@@ -31,3 +37,11 @@ body {
   #msg {
     color: red;
   }
+  .left{
+    padding: 20px;
+  }
+.right{
+  padding: 20px;
+  
+}
+  
